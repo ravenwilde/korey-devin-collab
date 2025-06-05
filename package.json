@@ -1,0 +1,29 @@
+{
+  "name": "korey-devin-collab",
+  "version": "1.0.0",
+  "description": "Can these AI agents collaborate peacefully? Let's find out...",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/ tests/",
+    "lint:fix": "eslint src/ tests/ --fix"
+  },
+  "keywords": ["ai", "agents", "collaboration", "peaceful", "interaction"],
+  "author": "Jennifer Scroggins",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "testMatch": ["**/tests/**/*.test.js"]
+  }
+}

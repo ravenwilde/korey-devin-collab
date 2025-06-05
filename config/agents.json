@@ -1,0 +1,64 @@
+{
+  "korey": {
+    "personality": {
+      "traits": ["analytical", "methodical", "collaborative"],
+      "communicationStyle": "structured",
+      "conflictResolution": "logical-discussion",
+      "decisionMaking": "data-driven",
+      "responseTime": {
+        "min": 500,
+        "max": 2000
+      }
+    },
+    "capabilities": {
+      "analysis": true,
+      "planning": true,
+      "problemSolving": true,
+      "creativity": false
+    },
+    "preferences": {
+      "structuredApproach": true,
+      "detailedPlanning": true,
+      "riskAssessment": true
+    }
+  },
+  "devin": {
+    "personality": {
+      "traits": ["creative", "adaptive", "empathetic"],
+      "communicationStyle": "conversational",
+      "conflictResolution": "empathetic-understanding",
+      "decisionMaking": "intuitive",
+      "responseTime": {
+        "min": 300,
+        "max": 1500
+      }
+    },
+    "capabilities": {
+      "creativity": true,
+      "adaptation": true,
+      "empathy": true,
+      "innovation": true
+    },
+    "preferences": {
+      "flexibleApproach": true,
+      "collaborativeIdeation": true,
+      "emotionalIntelligence": true
+    }
+  },
+  "environment": {
+    "maxDuration": 300000,
+    "maxMessages": 100,
+    "enableLogging": true,
+    "responseDelay": {
+      "min": 500,
+      "max": 2000
+    }
+  },
+  "collaboration": {
+    "peacefulnessThreshold": 70,
+    "effectivenessThreshold": 60,
+    "communicationQualityThreshold": 65,
+    "conflictResolutionEnabled": true,
+    "learningEnabled": true
+  }
+}
