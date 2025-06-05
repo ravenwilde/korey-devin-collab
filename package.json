@@ -1,0 +1,21 @@
+{
+  "name": "korey-devin-collab",
+  "version": "1.0.0",
+  "description": "Can these AI agents collaborate peacefully? Let's find out...",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "keywords": ["ai", "agents", "collaboration", "research"],
+  "author": "Jennifer Scroggins",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
